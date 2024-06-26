@@ -6,20 +6,42 @@ const midiParser  = require('midi-parser-js');
 const { create } = require('xmlbuilder2');
 
 program
-  .option("-i, --input <path>", "input path", "input")
-  .option("-o, --output <path>", "output path", "output")
+  .option("-i, --input <path>", "relative input path", "./input")
+  .option("-o, --output <path>", "relative output path", "./output")
   .option("-s --single", "include single chord files", false)
   .option("-c --middlec", "force triggers to group around middle c", false)
   .option("-d --dedupe", "remove duplicate chords", false);
 
 program.parse();
 const options = program.opts();
-console.log(options)
 
 let doneOne = false
 
+function getNewPath(filePath) {
+  let inputPath = options.input
+  if (!inputPath.startsWith("./")) {
+    inputPath = "./" + inputPath
+  }
+
+  let outputPath = options.output
+  if (!outputPath.startsWith("./")) {
+    outputPath = "./" + outputPath
+  }
+
+  let relativeFilePath = filePath
+  if (!relativeFilePath.startsWith("./")) {
+    relativeFilePath = "./" + relativeFilePath
+  }
+
+  const converted = relativeFilePath
+    .replace(inputPath, outputPath)
+    .replace(".mid", ".rpc")
+
+  return converted
+}
+
 function writePreset(filePath, data) {
-  doneOne = true
+  // doneOne = true
 
   const ripchordElement = create().ele("ripchord")
   const presetElement = ripchordElement.ele("preset")
@@ -71,8 +93,9 @@ function writePreset(filePath, data) {
   })
 
   const xml = ripchordElement.end({ prettyPrint: true })
-  console.log(filePath)
-  console.log(xml)
+  const outputPath = getNewPath(filePath)
+  fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+  fs.writeFileSync(outputPath, xml);
 }
 
 function isSharp(str) {
