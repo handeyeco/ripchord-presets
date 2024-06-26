@@ -3,21 +3,76 @@ const path = require("path")
 const { Midi } = require("tonal");
 const { program } = require("commander");
 const midiParser  = require('midi-parser-js');
+const { create } = require('xmlbuilder2');
 
 program
-  .option("-i, --input <path>", "input path", "./input")
-  .option("-o, --output <path>", "output path", "./output")
-  .option("-s --single", "include single chord files", false);
+  .option("-i, --input <path>", "input path", "input")
+  .option("-o, --output <path>", "output path", "output")
+  .option("-s --single", "include single chord files", false)
+  .option("-c --middlec", "force triggers to group around middle c", false)
+  .option("-d --dedupe", "remove duplicate chords", false);
 
 program.parse();
 const options = program.opts();
+console.log(options)
 
 let doneOne = false
 
 function writePreset(filePath, data) {
-  // doneOne = true
+  doneOne = true
 
-  console.log(filePath, data)
+  const ripchordElement = create().ele("ripchord")
+  const presetElement = ripchordElement.ele("preset")
+
+  // different trigger strategies, order of preference:
+  // - use the first note in the chord
+  // - use the lowest note in the chord
+  // - group notes around middle c
+  let triggerIsFirstNote = !options.middlec
+  let triggerIsLowNote = !options.middlec
+  if (!options.middlec) {
+    let firstNoteMap = {}
+    let lowNoteMap = {}
+    data.forEach(e => {
+      if (!triggerIsFirstNote && !triggerIsLowNote) return
+  
+      if (firstNoteMap[e.notes[0]]) {
+        triggerIsFirstNote = false
+      } else {
+        firstNoteMap[e.notes[0]] = true
+      }
+  
+      const sortedNotes = e.notes.sort()
+      if (lowNoteMap[sortedNotes[0]]) {
+        triggerIsLowNote = false
+      } else {
+        lowNoteMap[sortedNotes[0]] = true
+      }
+    })
+  }
+
+  // if we don't have clear root numbers,
+  // group mappings around middle C
+  let middleCTrigger = 60 - Math.floor(data.length / 2)
+  data.forEach(e => {
+    const trigger = triggerIsFirstNote ? e.notes[0] :
+    triggerIsLowNote ? e.notes.sort()[0] :
+    middleCTrigger
+
+    const input = presetElement.ele("input")
+    input.att('note', `${trigger}`);
+    const chord = input.ele("chord")
+    chord.att('name', e.name);
+    chord.att('notes', e.notes.join(';'));
+
+    // keep notes on white keys when grouping around middle c
+    // TODO reconsider this?
+    middleCTrigger += Midi.midiToNoteName(middleCTrigger + 1).includes("b") ? 2 : 1
+  })
+
+  const xml = ripchordElement.end({ prettyPrint: true })
+  console.log(filePath)
+  console.log(xml)
 }
 
 function isSharp(str) {
@@ -88,6 +143,22 @@ function convertFile(filePath) {
       c.name = notesString
     }
   })
+
+  // optionally remove chords that use the same keys
+  if (options.dedupe) {
+    const existing = {}
+    const deduped = []
+
+    chords.forEach(c => {
+      const key = c.notes.sort().join(";")
+      if (!existing[key]) {
+        deduped.push(c)
+        existing[key] = true
+      }
+    })
+
+    chords = deduped
+  }
 
   if (chords.length && (options.single || chords.length > 1)) {
     writePreset(filePath, chords)
