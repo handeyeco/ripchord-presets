@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<ripchord>
+  <preset>
+    <input note="31">
+      <chord name="I7" notes="31;35;38;42"/>
+    </input>
+    <input note="33">
+      <chord name="ii7" notes="33;36;40;43"/>
+    </input>
+    <input note="35">
+      <chord name="iii7" notes="35;38;42;45"/>
+    </input>
+    <input note="36">
+      <chord name="IV7" notes="36;40;43;47"/>
+    </input>
+    <input note="38">
+      <chord name="V7" notes="38;42;45;48"/>
+    </input>
+    <input note="40">
+      <chord name="vi7" notes="40;43;47;50"/>
+    </input>
+    <input note="42">
+      <chord name="vii7 (dim)" notes="42;45;48;52"/>
+    </input>
+    <input note="43">
+      <chord name="I7" notes="43;47;50;54"/>
+    </input>
+    <input note="45">
+      <chord name="ii7" notes="45;48;52;55"/>
+    </input>
+    <input note="47">
+      <chord name="iii7" notes="47;50;54;57"/>
+    </input>
+    <input note="48">
+      <chord name="IV7" notes="48;52;55;59"/>
+    </input>
+    <input note="50">
+      <chord name="V7" notes="50;54;57;60"/>
+    </input>
+    <input note="52">
+      <chord name="vi7" notes="52;55;59;62"/>
+    </input>
+    <input note="54">
+      <chord name="vii7 (dim)" notes="54;57;60;64"/>
+    </input>
+    <input note="55">
+      <chord name="I7" notes="55;59;62;66"/>
+    </input>
+    <input note="57">
+      <chord name="ii7" notes="57;60;64;67"/>
+    </input>
+    <input note="59">
+      <chord name="iii7" notes="59;62;66;69"/>
+    </input>
+    <input note="60">
+      <chord name="IV7" notes="60;64;67;71"/>
+    </input>
+    <input note="62">
+      <chord name="V7" notes="62;66;69;72"/>
+    </input>
+    <input note="64">
+      <chord name="vi7" notes="64;67;71;74"/>
+    </input>
+    <input note="66">
+      <chord name="vii7 (dim)" notes="66;69;72;76"/>
+    </input>
+    <input note="67">
+      <chord name="I7" notes="67;71;74;78"/>
+    </input>
+    <input note="69">
+      <chord name="ii7" notes="69;72;76;79"/>
+    </input>
+    <input note="71">
+      <chord name="iii7" notes="71;74;78;81"/>
+    </input>
+    <input note="72">
+      <chord name="IV7" notes="72;76;79;83"/>
+    </input>
+    <input note="74">
+      <chord name="V7" notes="74;78;81;84"/>
+    </input>
+    <input note="76">
+      <chord name="vi7" notes="76;79;83;86"/>
+    </input>
+    <input note="78">
+      <chord name="vii7 (dim)" notes="78;81;84;88"/>
+    </input>
+    <input note="79">
+      <chord name="I7" notes="79;83;86;90"/>
+    </input>
+    <input note="81">
+      <chord name="ii7" notes="81;84;88;91"/>
+    </input>
+    <input note="83">
+      <chord name="iii7" notes="83;86;90;93"/>
+    </input>
+    <input note="84">
+      <chord name="IV7" notes="84;88;91;95"/>
+    </input>
+    <input note="86">
+      <chord name="V7" notes="86;90;93;96"/>
+    </input>
+    <input note="88">
+      <chord name="vi7" notes="88;91;95;98"/>
+    </input>
+    <input note="90">
+      <chord name="vii7 (dim)" notes="90;93;96;100"/>
+    </input>
+    <input note="91">
+      <chord name="I7" notes="91;95;98;102"/>
+    </input>
+    <input note="93">
+      <chord name="ii7" notes="93;96;100;103"/>
+    </input>
+    <input note="95">
+      <chord name="iii7" notes="95;98;102;105"/>
+    </input>
+    <input note="96">
+      <chord name="IV7" notes="96;100;103;107"/>
+    </input>
+    <input note="98">
+      <chord name="V7" notes="98;102;105;108"/>
+    </input>
+    <input note="100">
+      <chord name="vi7" notes="100;103;107;110"/>
+    </input>
+    <input note="102">
+      <chord name="vii7 (dim)" notes="102;105;108;112"/>
+    </input>
+    <input note="103">
+      <chord name="I7" notes="103;107;110;114"/>
+    </input>
+    <input note="105">
+      <chord name="ii7" notes="105;108;112;115"/>
+    </input>
+    <input note="107">
+      <chord name="iii7" notes="107;110;114;117"/>
+    </input>
+    <input note="108">
+      <chord name="IV7" notes="108;112;115;119"/>
+    </input>
+    <input note="110">
+      <chord name="V7" notes="110;114;117;120"/>
+    </input>
+    <input note="112">
+      <chord name="vi7" notes="112;115;119;122"/>
+    </input>
+    <input note="114">
+      <chord name="vii7 (dim)" notes="114;117;120;124"/>
+    </input>
+  </preset>
+</ripchord>
