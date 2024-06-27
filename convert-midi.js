@@ -17,6 +17,14 @@ const options = program.opts();
 
 let doneOne = false
 
+let written = 0
+function printProgress(){
+  written++
+  process.stdout.clearLine(0);
+  process.stdout.cursorTo(0);
+  process.stdout.write(`presets written: ${written}`);
+}
+
 function getNewPath(filePath) {
   let inputPath = options.input
   if (!inputPath.startsWith("./")) {
@@ -96,6 +104,7 @@ function writePreset(filePath, data) {
   const outputPath = getNewPath(filePath)
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   fs.writeFileSync(outputPath, xml);
+  printProgress()
 }
 
 function isSharp(str) {
@@ -213,6 +222,8 @@ function main() {
   if (!fs.existsSync(options.output)) {
     console.error('output path not found')
   }
+
+  console.log("converting (this could take awhile)")
 
   if (fs.lstatSync(options.input).isDirectory()) {
     convertDir(options.input)
