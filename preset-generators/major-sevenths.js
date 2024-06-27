@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const { Key, Midi } = require("tonal");
 
-const { outputDir, convertToXML, writePreset, logPreset } = require("./shared");
+const { outputDir, convertToXML, writePreset } = require("./shared");
 
 function majorSevenths() {
   const baseMap = [];

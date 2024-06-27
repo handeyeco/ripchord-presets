@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+<ripchord>
+  <preset>
+    <input note="24">
+      <chord name="C4" notes="24;29"/>
+    </input>
+    <input note="25">
+      <chord name="Db4" notes="25;30"/>
+    </input>
+    <input note="26">
+      <chord name="D4" notes="26;31"/>
+    </input>
+    <input note="27">
+      <chord name="Eb4" notes="27;32"/>
+    </input>
+    <input note="28">
+      <chord name="E4" notes="28;33"/>
+    </input>
+    <input note="29">
+      <chord name="F4" notes="29;34"/>
+    </input>
+    <input note="30">
+      <chord name="Gb4" notes="30;35"/>
+    </input>
+    <input note="31">
+      <chord name="G4" notes="31;36"/>
+    </input>
+    <input note="32">
+      <chord name="Ab4" notes="32;37"/>
+    </input>
+    <input note="33">
+      <chord name="A4" notes="33;38"/>
+    </input>
+    <input note="34">
+      <chord name="Bb4" notes="34;39"/>
+    </input>
+    <input note="35">
+      <chord name="B4" notes="35;40"/>
+    </input>
+    <input note="36">
+      <chord name="C4" notes="36;41"/>
+    </input>
+    <input note="37">
+      <chord name="Db4" notes="37;42"/>
+    </input>
+    <input note="38">
+      <chord name="D4" notes="38;43"/>
+    </input>
+    <input note="39">
+      <chord name="Eb4" notes="39;44"/>
+    </input>
+    <input note="40">
+      <chord name="E4" notes="40;45"/>
+    </input>
+    <input note="41">
+      <chord name="F4" notes="41;46"/>
+    </input>
+    <input note="42">
+      <chord name="Gb4" notes="42;47"/>
+    </input>
+    <input note="43">
+      <chord name="G4" notes="43;48"/>
+    </input>
+    <input note="44">
+      <chord name="Ab4" notes="44;49"/>
+    </input>
+    <input note="45">
+      <chord name="A4" notes="45;50"/>
+    </input>
+    <input note="46">
+      <chord name="Bb4" notes="46;51"/>
+    </input>
+    <input note="47">
+      <chord name="B4" notes="47;52"/>
+    </input>
+    <input note="48">
+      <chord name="C4" notes="48;53"/>
+    </input>
+    <input note="49">
+      <chord name="Db4" notes="49;54"/>
+    </input>
+    <input note="50">
+      <chord name="D4" notes="50;55"/>
+    </input>
+    <input note="51">
+      <chord name="Eb4" notes="51;56"/>
+    </input>
+    <input note="52">
+      <chord name="E4" notes="52;57"/>
+    </input>
+    <input note="53">
+      <chord name="F4" notes="53;58"/>
+    </input>
+    <input note="54">
+      <chord name="Gb4" notes="54;59"/>
+    </input>
+    <input note="55">
+      <chord name="G4" notes="55;60"/>
+    </input>
+    <input note="56">
+      <chord name="Ab4" notes="56;61"/>
+    </input>
+    <input note="57">
+      <chord name="A4" notes="57;62"/>
+    </input>
+    <input note="58">
+      <chord name="Bb4" notes="58;63"/>
+    </input>
+    <input note="59">
+      <chord name="B4" notes="59;64"/>
+    </input>
+    <input note="60">
+      <chord name="C4" notes="60;65"/>
+    </input>
+    <input note="61">
+      <chord name="Db4" notes="61;66"/>
+    </input>
+    <input note="62">
+      <chord name="D4" notes="62;67"/>
+    </input>
+    <input note="63">
+      <chord name="Eb4" notes="63;68"/>
+    </input>
+    <input note="64">
+      <chord name="E4" notes="64;69"/>
+    </input>
+    <input note="65">
+      <chord name="F4" notes="65;70"/>
+    </input>
+    <input note="66">
+      <chord name="Gb4" notes="66;71"/>
+    </input>
+    <input note="67">
+      <chord name="G4" notes="67;72"/>
+    </input>
+    <input note="68">
+      <chord name="Ab4" notes="68;73"/>
+    </input>
+    <input note="69">
+      <chord name="A4" notes="69;74"/>
+    </input>
+    <input note="70">
+      <chord name="Bb4" notes="70;75"/>
+    </input>
+    <input note="71">
+      <chord name="B4" notes="71;76"/>
+    </input>
+    <input note="72">
+      <chord name="C4" notes="72;77"/>
+    </input>
+    <input note="73">
+      <chord name="Db4" notes="73;78"/>
+    </input>
+    <input note="74">
+      <chord name="D4" notes="74;79"/>
+    </input>
+    <input note="75">
+      <chord name="Eb4" notes="75;80"/>
+    </input>
+    <input note="76">
+      <chord name="E4" notes="76;81"/>
+    </input>
+    <input note="77">
+      <chord name="F4" notes="77;82"/>
+    </input>
+    <input note="78">
+      <chord name="Gb4" notes="78;83"/>
+    </input>
+    <input note="79">
+      <chord name="G4" notes="79;84"/>
+    </input>
+    <input note="80">
+      <chord name="Ab4" notes="80;85"/>
+    </input>
+    <input note="81">
+      <chord name="A4" notes="81;86"/>
+    </input>
+    <input note="82">
+      <chord name="Bb4" notes="82;87"/>
+    </input>
+    <input note="83">
+      <chord name="B4" notes="83;88"/>
+    </input>
+    <input note="84">
+      <chord name="C4" notes="84;89"/>
+    </input>
+    <input note="85">
+      <chord name="Db4" notes="85;90"/>
+    </input>
+    <input note="86">
+      <chord name="D4" notes="86;91"/>
+    </input>
+    <input note="87">
+      <chord name="Eb4" notes="87;92"/>
+    </input>
+    <input note="88">
+      <chord name="E4" notes="88;93"/>
+    </input>
+    <input note="89">
+      <chord name="F4" notes="89;94"/>
+    </input>
+    <input note="90">
+      <chord name="Gb4" notes="90;95"/>
+    </input>
+    <input note="91">
+      <chord name="G4" notes="91;96"/>
+    </input>
+    <input note="92">
+      <chord name="Ab4" notes="92;97"/>
+    </input>
+    <input note="93">
+      <chord name="A4" notes="93;98"/>
+    </input>
+    <input note="94">
+      <chord name="Bb4" notes="94;99"/>
+    </input>
+    <input note="95">
+      <chord name="B4" notes="95;100"/>
+    </input>
+    <input note="96">
+      <chord name="C4" notes="96;101"/>
+    </input>
+    <input note="97">
+      <chord name="Db4" notes="97;102"/>
+    </input>
+    <input note="98">
+      <chord name="D4" notes="98;103"/>
+    </input>
+    <input note="99">
+      <chord name="Eb4" notes="99;104"/>
+    </input>
+    <input note="100">
+      <chord name="E4" notes="100;105"/>
+    </input>
+    <input note="101">
+      <chord name="F4" notes="101;106"/>
+    </input>
+    <input note="102">
+      <chord name="Gb4" notes="102;107"/>
+    </input>
+    <input note="103">
+      <chord name="G4" notes="103;108"/>
+    </input>
+    <input note="104">
+      <chord name="Ab4" notes="104;109"/>
+    </input>
+    <input note="105">
+      <chord name="A4" notes="105;110"/>
+    </input>
+    <input note="106">
+      <chord name="Bb4" notes="106;111"/>
+    </input>
+    <input note="107">
+      <chord name="B4" notes="107;112"/>
+    </input>
+  </preset>
+</ripchord>

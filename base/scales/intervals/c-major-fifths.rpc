@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<ripchord>
+  <preset>
+    <input note="24">
+      <chord name="C G" notes="24;31"/>
+    </input>
+    <input note="26">
+      <chord name="D A" notes="26;33"/>
+    </input>
+    <input note="28">
+      <chord name="E B" notes="28;35"/>
+    </input>
+    <input note="29">
+      <chord name="F C" notes="29;36"/>
+    </input>
+    <input note="31">
+      <chord name="G D" notes="31;38"/>
+    </input>
+    <input note="33">
+      <chord name="A E" notes="33;40"/>
+    </input>
+    <input note="35">
+      <chord name="B F" notes="35;41"/>
+    </input>
+    <input note="36">
+      <chord name="C G" notes="36;43"/>
+    </input>
+    <input note="38">
+      <chord name="D A" notes="38;45"/>
+    </input>
+    <input note="40">
+      <chord name="E B" notes="40;47"/>
+    </input>
+    <input note="41">
+      <chord name="F C" notes="41;48"/>
+    </input>
+    <input note="43">
+      <chord name="G D" notes="43;50"/>
+    </input>
+    <input note="45">
+      <chord name="A E" notes="45;52"/>
+    </input>
+    <input note="47">
+      <chord name="B F" notes="47;53"/>
+    </input>
+    <input note="48">
+      <chord name="C G" notes="48;55"/>
+    </input>
+    <input note="50">
+      <chord name="D A" notes="50;57"/>
+    </input>
+    <input note="52">
+      <chord name="E B" notes="52;59"/>
+    </input>
+    <input note="53">
+      <chord name="F C" notes="53;60"/>
+    </input>
+    <input note="55">
+      <chord name="G D" notes="55;62"/>
+    </input>
+    <input note="57">
+      <chord name="A E" notes="57;64"/>
+    </input>
+    <input note="59">
+      <chord name="B F" notes="59;65"/>
+    </input>
+    <input note="60">
+      <chord name="C G" notes="60;67"/>
+    </input>
+    <input note="62">
+      <chord name="D A" notes="62;69"/>
+    </input>
+    <input note="64">
+      <chord name="E B" notes="64;71"/>
+    </input>
+    <input note="65">
+      <chord name="F C" notes="65;72"/>
+    </input>
+    <input note="67">
+      <chord name="G D" notes="67;74"/>
+    </input>
+    <input note="69">
+      <chord name="A E" notes="69;76"/>
+    </input>
+    <input note="71">
+      <chord name="B F" notes="71;77"/>
+    </input>
+    <input note="72">
+      <chord name="C G" notes="72;79"/>
+    </input>
+    <input note="74">
+      <chord name="D A" notes="74;81"/>
+    </input>
+    <input note="76">
+      <chord name="E B" notes="76;83"/>
+    </input>
+    <input note="77">
+      <chord name="F C" notes="77;84"/>
+    </input>
+    <input note="79">
+      <chord name="G D" notes="79;86"/>
+    </input>
+    <input note="81">
+      <chord name="A E" notes="81;88"/>
+    </input>
+    <input note="83">
+      <chord name="B F" notes="83;89"/>
+    </input>
+    <input note="84">
+      <chord name="C G" notes="84;91"/>
+    </input>
+    <input note="86">
+      <chord name="D A" notes="86;93"/>
+    </input>
+    <input note="88">
+      <chord name="E B" notes="88;95"/>
+    </input>
+    <input note="89">
+      <chord name="F C" notes="89;96"/>
+    </input>
+    <input note="91">
+      <chord name="G D" notes="91;98"/>
+    </input>
+    <input note="93">
+      <chord name="A E" notes="93;100"/>
+    </input>
+    <input note="95">
+      <chord name="B F" notes="95;101"/>
+    </input>
+    <input note="96">
+      <chord name="C G" notes="96;103"/>
+    </input>
+    <input note="98">
+      <chord name="D A" notes="98;105"/>
+    </input>
+    <input note="100">
+      <chord name="E B" notes="100;107"/>
+    </input>
+    <input note="101">
+      <chord name="F C" notes="101;108"/>
+    </input>
+    <input note="103">
+      <chord name="G D" notes="103;110"/>
+    </input>
+    <input note="105">
+      <chord name="A E" notes="105;112"/>
+    </input>
+    <input note="107">
+      <chord name="B F" notes="107;113"/>
+    </input>
+  </preset>
+</ripchord>

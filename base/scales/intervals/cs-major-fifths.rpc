@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<ripchord>
+  <preset>
+    <input note="25">
+      <chord name="C# G#" notes="25;32"/>
+    </input>
+    <input note="27">
+      <chord name="D# A#" notes="27;34"/>
+    </input>
+    <input note="29">
+      <chord name="F C" notes="29;36"/>
+    </input>
+    <input note="30">
+      <chord name="F# C#" notes="30;37"/>
+    </input>
+    <input note="32">
+      <chord name="G# D#" notes="32;39"/>
+    </input>
+    <input note="34">
+      <chord name="A# F" notes="34;41"/>
+    </input>
+    <input note="36">
+      <chord name="C F#" notes="36;42"/>
+    </input>
+    <input note="37">
+      <chord name="C# G#" notes="37;44"/>
+    </input>
+    <input note="39">
+      <chord name="D# A#" notes="39;46"/>
+    </input>
+    <input note="41">
+      <chord name="F C" notes="41;48"/>
+    </input>
+    <input note="42">
+      <chord name="F# C#" notes="42;49"/>
+    </input>
+    <input note="44">
+      <chord name="G# D#" notes="44;51"/>
+    </input>
+    <input note="46">
+      <chord name="A# F" notes="46;53"/>
+    </input>
+    <input note="48">
+      <chord name="C F#" notes="48;54"/>
+    </input>
+    <input note="49">
+      <chord name="C# G#" notes="49;56"/>
+    </input>
+    <input note="51">
+      <chord name="D# A#" notes="51;58"/>
+    </input>
+    <input note="53">
+      <chord name="F C" notes="53;60"/>
+    </input>
+    <input note="54">
+      <chord name="F# C#" notes="54;61"/>
+    </input>
+    <input note="56">
+      <chord name="G# D#" notes="56;63"/>
+    </input>
+    <input note="58">
+      <chord name="A# F" notes="58;65"/>
+    </input>
+    <input note="60">
+      <chord name="C F#" notes="60;66"/>
+    </input>
+    <input note="61">
+      <chord name="C# G#" notes="61;68"/>
+    </input>
+    <input note="63">
+      <chord name="D# A#" notes="63;70"/>
+    </input>
+    <input note="65">
+      <chord name="F C" notes="65;72"/>
+    </input>
+    <input note="66">
+      <chord name="F# C#" notes="66;73"/>
+    </input>
+    <input note="68">
+      <chord name="G# D#" notes="68;75"/>
+    </input>
+    <input note="70">
+      <chord name="A# F" notes="70;77"/>
+    </input>
+    <input note="72">
+      <chord name="C F#" notes="72;78"/>
+    </input>
+    <input note="73">
+      <chord name="C# G#" notes="73;80"/>
+    </input>
+    <input note="75">
+      <chord name="D# A#" notes="75;82"/>
+    </input>
+    <input note="77">
+      <chord name="F C" notes="77;84"/>
+    </input>
+    <input note="78">
+      <chord name="F# C#" notes="78;85"/>
+    </input>
+    <input note="80">
+      <chord name="G# D#" notes="80;87"/>
+    </input>
+    <input note="82">
+      <chord name="A# F" notes="82;89"/>
+    </input>
+    <input note="84">
+      <chord name="C F#" notes="84;90"/>
+    </input>
+    <input note="85">
+      <chord name="C# G#" notes="85;92"/>
+    </input>
+    <input note="87">
+      <chord name="D# A#" notes="87;94"/>
+    </input>
+    <input note="89">
+      <chord name="F C" notes="89;96"/>
+    </input>
+    <input note="90">
+      <chord name="F# C#" notes="90;97"/>
+    </input>
+    <input note="92">
+      <chord name="G# D#" notes="92;99"/>
+    </input>
+    <input note="94">
+      <chord name="A# F" notes="94;101"/>
+    </input>
+    <input note="96">
+      <chord name="C F#" notes="96;102"/>
+    </input>
+    <input note="97">
+      <chord name="C# G#" notes="97;104"/>
+    </input>
+    <input note="99">
+      <chord name="D# A#" notes="99;106"/>
+    </input>
+    <input note="101">
+      <chord name="F C" notes="101;108"/>
+    </input>
+    <input note="102">
+      <chord name="F# C#" notes="102;109"/>
+    </input>
+    <input note="104">
+      <chord name="G# D#" notes="104;111"/>
+    </input>
+    <input note="106">
+      <chord name="A# F" notes="106;113"/>
+    </input>
+    <input note="108">
+      <chord name="C F#" notes="108;114"/>
+    </input>
+  </preset>
+</ripchord>

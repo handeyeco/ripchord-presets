@@ -2,11 +2,10 @@ const fs = require("fs");
 const path = require("path");
 const { Key, Midi } = require("tonal");
 
-const { outputDir, convertToXML, writePreset } = require("./shared");
+const { outputDir, convertToXML, writePreset, logPreset } = require("./shared");
 
-function majorTriads() {
+function scaleFifths() {
   const baseMap = [];
-  const chordNames = ["I", "ii", "iii", "IV", "V", "vi", "vii (dim)"];
   const scaleNotes = Key.majorKey("C").scale;
   const notes = [
     ...scaleNotes.map((n) => Midi.toMidi(`${n}1`)),
@@ -16,8 +15,8 @@ function majorTriads() {
   for (let i = 0; i < 7; i++) {
     baseMap.push({
       trigger: notes[i],
-      notes: [notes[i], notes[i + 2], notes[i + 4]],
-      name: chordNames[i],
+      notes: [notes[i], notes[i + 4]],
+      name: "",
     });
   }
 
@@ -48,17 +47,21 @@ function majorTriads() {
     "b",
   ];
 
-  const outDirPath = path.join(outputDir, "scales", "chords", "triads");
+  const outDirPath = path.join(outputDir, "scales", "intervals");
   fs.mkdirSync(outDirPath, { recursive: true });
   for (let i = 0; i < allNotes.length; i++) {
     const transposed = fullPreset.map((e) => ({
-      name: e.name,
+      name: e.notes
+        .map((n) =>
+          Midi.midiToNoteName(n + i, { pitchClass: true, sharps: true })
+        )
+        .join(" "),
       trigger: e.trigger + i,
       notes: e.notes.map((n) => n + i),
     }));
     const xml = convertToXML(transposed);
-    writePreset(outDirPath, `${allNotes[i]}-major-triads`, xml);
+    writePreset(outDirPath, `${allNotes[i]}-major-fifths`, xml);
   }
 }
 
-module.exports = { majorTriads };
+module.exports = { scaleFifths };
