@@ -49,7 +49,7 @@ function majorSevenths() {
     "b",
   ];
 
-  const outDirPath = path.join(outputDir, "major-scale", "chords", "sevenths");
+  const outDirPath = path.join(outputDir, "scales", "chords", "sevenths");
   fs.mkdirSync(outDirPath, { recursive: true });
   for (let i = 0; i < allNotes.length; i++) {
     const transposed = fullPreset.map((e) => ({

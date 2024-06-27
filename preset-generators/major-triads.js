@@ -48,7 +48,7 @@ function majorTriads() {
     "b",
   ];
 
-  const outDirPath = path.join(outputDir, "major-scale", "chords", "triads");
+  const outDirPath = path.join(outputDir, "scales", "chords", "triads");
   fs.mkdirSync(outDirPath, { recursive: true });
   for (let i = 0; i < allNotes.length; i++) {
     const transposed = fullPreset.map((e) => ({
