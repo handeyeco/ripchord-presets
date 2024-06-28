@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<ripchord>
+  <preset>
+    <input note="38">
+      <chord name="Maj I7 " notes="62;66;69;73"/>
+    </input>
+    <input note="40">
+      <chord name="Maj ii7 " notes="64;67;71;74"/>
+    </input>
+    <input note="42">
+      <chord name="Maj iii7 " notes="66;69;73;76"/>
+    </input>
+    <input note="43">
+      <chord name="Maj IV7 " notes="67;71;74;78"/>
+    </input>
+    <input note="45">
+      <chord name="Maj V7 " notes="69;73;76;79"/>
+    </input>
+    <input note="47">
+      <chord name="Maj vi7 " notes="71;74;78;81"/>
+    </input>
+    <input note="49">
+      <chord name="Maj vii7 (dim)" notes="73;76;79;83"/>
+    </input>
+    <input note="50">
+      <chord name="min i7 " notes="62;65;69;72"/>
+    </input>
+    <input note="52">
+      <chord name="min ii7 (dim)" notes="64;67;70;74"/>
+    </input>
+    <input note="53">
+      <chord name="min III7 " notes="65;69;72;76"/>
+    </input>
+    <input note="55">
+      <chord name="min iv7 " notes="67;70;74;77"/>
+    </input>
+    <input note="57">
+      <chord name="min v7 " notes="69;72;76;79"/>
+    </input>
+    <input note="58">
+      <chord name="min VI7 " notes="70;74;77;81"/>
+    </input>
+    <input note="60">
+      <chord name="min VII7 " notes="72;76;79;82"/>
+    </input>
+    <input note="62">
+      <chord name="Maj I" notes="62;66;69"/>
+    </input>
+    <input note="64">
+      <chord name="Maj ii" notes="64;67;71"/>
+    </input>
+    <input note="66">
+      <chord name="Maj iii" notes="66;69;73"/>
+    </input>
+    <input note="67">
+      <chord name="Maj IV" notes="67;71;74"/>
+    </input>
+    <input note="69">
+      <chord name="Maj V" notes="69;73;76"/>
+    </input>
+    <input note="71">
+      <chord name="Maj vi" notes="71;74;78"/>
+    </input>
+    <input note="73">
+      <chord name="Maj vii (dim)" notes="73;76;79"/>
+    </input>
+    <input note="74">
+      <chord name="min i" notes="62;65;69"/>
+    </input>
+    <input note="76">
+      <chord name="min ii (dim)" notes="64;67;70"/>
+    </input>
+    <input note="77">
+      <chord name="min III" notes="65;69;72"/>
+    </input>
+    <input note="79">
+      <chord name="min iv" notes="67;70;74"/>
+    </input>
+    <input note="81">
+      <chord name="min v" notes="69;72;76"/>
+    </input>
+    <input note="82">
+      <chord name="min VI" notes="70;74;77"/>
+    </input>
+    <input note="84">
+      <chord name="min VII" notes="72;76;79"/>
+    </input>
+  </preset>
+</ripchord>
